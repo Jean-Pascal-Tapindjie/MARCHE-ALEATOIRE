@@ -3,4 +3,4 @@
 
 # deuxieme image test
 
-![Trajectoire de la marche aléatoire] (images/ Marche aléatoire 1D.png)
+![Trajectoire de la marche aléatoire](images/Marche aléatoire 2D v1.png)
