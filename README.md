@@ -1,5 +1,5 @@
 # Approximation du mouvement Brownien
-<HTML>< img src = "Images/Marche aléatoire 1D.png" alt="Marche aléatoire en 2D" width="500"></HTML>
+< img src = "Images/Marche_aléatoire_1D.png" alt="Marche aléatoire en 2D" width="500">
 
-<Markdown>
-![Trajectoire de la marche aléatoire](Images/Marche aléatoire 1D v2.png)</Markdown>
+# deuxieme image test
+![Trajectoire de la marche aléatoire](images/Marche aléatoire 1D v2.png)
