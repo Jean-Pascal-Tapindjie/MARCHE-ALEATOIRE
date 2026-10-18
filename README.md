@@ -9,12 +9,15 @@
   ### Matplotlib : 
   Pour la représentation des graphiques
   ### Random : 
-  Pour utiliser des valeurs aléatoires 
+  Pour générer des valeurs aléatoires 
   ### Numpy : 
-  Utiliser pour borner graphiquement la marche aléatoire en 1D  
+  Utiliser tracer deux droites pour borner graphiquement la marche aléatoire en 1D  
 # Marche aléatoire 1D
   Ici, on suppose la particule dans un tube très fin et se déplace entre chaque pas de temps aléatoirement vers la gauche ou la droite. Pour illustrer cela, j'ai utilisé dans mon code deux fonctions Pile_ou_face() et Position(N). J'ai également utilisé la fonction Position_bornée(N) pour stopper la simulation de la marche aléatoire de la particule entre -30 et 30 ou si l'on atteint un nombre d'itérations maximum (10000). 
   ### Pile_ou_face():
   Cette fonction utilise la bibliothèque Random pour retourne aléatoirement (-1) ou (1) avec P(-1)= P(1) = 1/2. Ici P(-1) (respectivement P(1)) représente la probabilité d'obtenir (-1) (resp. (1)).
   ### Position (N) :
+  Pour cette fonction, j'ai supposé que la particule se trouve a l'origine du repère ( x = 0 ) à l'instant initial. Cette fonction prend donc en argument un entier N et renvoie une liste de positions de la particule à des instants successifs de t(0) à t(N). La formule générale utilisée est x(n+1) = x(n) + Pile_ou_face() avec n un instant quelconque et x(n) la position de la particule à cet instant. 
+  ### Illustration graphique: 
+  <p align = "center"> 
   
