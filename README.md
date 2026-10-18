@@ -40,8 +40,8 @@
  ### Position_2D(N) 
  On suppose que la particule se trouve à l'origine du repère, de coordonnées (0,0), à l'instant initial. Cette fonction prend en argument un entier N et retourne deux listes X pour les abscisses et Y pour les ordonnées. Ces deux listes représentent les positions (coordonnées) de la particule (X(i); Y(i)) à l'instant t(i) avec i compris entre 0 et N. 
  ### Illustration graphique 
- <p align = "center"> <img width="425" height="300" alt="Position 2D" src="https://github.com/user-attachments/assets/cdba7e67-868f-460d-a525-1bdef6567a38" />
-<img width="425" height="300" alt="Position 2D v2" src="https://github.com/user-attachments/assets/b31d0768-938b-4fe2-b2f9-0df1d9a1204d" /> </p> 
+ <p align = "center"> <img width="400" height="400" alt="Position 2D" src="https://github.com/user-attachments/assets/cdba7e67-868f-460d-a525-1bdef6567a38" />
+<img width="400" height="400" alt="Position 2D v2" src="https://github.com/user-attachments/assets/b31d0768-938b-4fe2-b2f9-0df1d9a1204d" /> </p> 
 Pour le graphe de gauche, N = 10000 pas et pour celui de droite, N =  1000 pas
 
 ## Remarque 
