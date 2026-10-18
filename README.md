@@ -13,5 +13,8 @@
   ### Numpy : 
   Utiliser pour borner graphiquement la marche aléatoire en 1D  
 # Marche aléatoire 1D
-  <img width="1280" height="720" alt="tv-54866-backdrops-1" src="https://github.com/user-attachments/assets/c22b0b05-c466-426a-87eb-a68d6575b79b" />
-
+  Ici, on suppose la particule dans un tube très fin et se déplace entre chaque pas de temps aléatoirement vers la gauche ou la droite. Pour illustrer cela, j'ai utilisé dans mon code deux fonctions Pile_ou_face() et Position(N). J'ai également utilisé la fonction Position_bornée(N) pour stopper la simulation de la marche aléatoire de la particule entre -30 et 30 ou si l'on atteint un nombre d'itérations maximum (10000). 
+  ### Pile_ou_face():
+  Cette fonction utilise la bibliothèque Random pour retourne aléatoirement (-1) ou (1) avec P(-1)= P(1) = 1/2. Ici P(-1) (respectivement P(1)) représente la probabilité d'obtenir (-1) (resp. (1)).
+  ### Position (N) :
+  
