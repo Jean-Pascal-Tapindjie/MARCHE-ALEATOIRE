@@ -21,7 +21,7 @@
   Pour cette fonction, j'ai supposé que la particule se trouve a l'origine du repère (x = 0) à l'instant initial. Cette fonction prend donc en argument un entier N et renvoie une liste de positions de la particule à des instants successifs de t(0) à t(N). La formule générale utilisée est x(n+1) = x(n) + Pile_ou_face() avec n un instant quelconque et x(n) la position de la particule à cet instant. 
    #### Illustration graphique
   <p align = "center"> <img width="377" height="268" alt="Position 1D" src="https://github.com/user-attachments/assets/7aeef90f-5a41-4c5a-9d61-19e0f3422fe1" />
-<img width="371" height="268" alt="Position 1D v2" src="https://github.com/user-attachments/assets/e609ca3c-1eef-48a0-bd27-001c876aac98" /> </p> Pour le graphique de gauche, N = 1000 et pour celui de droite, N = 100.
+<img width="371" height="268" alt="Position 1D v2" src="https://github.com/user-attachments/assets/e609ca3c-1eef-48a0-bd27-001c876aac98" /> </p> Pour le graphique de gauche, N = 1000 pas et pour celui de droite, N = 100 pas.
    
   ### Position_bornee() 
    Cette fonction calcule  et renvoie une liste des positions successives de la particule. La simulation s'arrête lorsque la position atteint (-30) ou (30) ou lorsque le nombre maximal d'itérations est atteint (10000). Les bornes constituent ici des seuils d'arrêt de la simulation.
@@ -40,9 +40,9 @@
  ### Position_2D(N) 
  On suppose que la particule se trouve à l'origine du repère, de coordonnées (0,0), à l'instant initial. Cette fonction prend en argument un entier N et retourne deux listes X pour les abscisses et Y pour les ordonnées. Ces deux listes représentent les positions (coordonnées) de la particule (X(i); Y(i)) à l'instant t(i) avec i compris entre 0 et N. 
  ### Illustration graphique 
- <p align = "center"> <img width="450" height="300" alt="Position 2D" src="https://github.com/user-attachments/assets/cdba7e67-868f-460d-a525-1bdef6567a38" />
-<img width="450" height="300" alt="Position 2D v2" src="https://github.com/user-attachments/assets/b31d0768-938b-4fe2-b2f9-0df1d9a1204d" /> </p> 
-Pour le graphe de gauche, N = 10000 et pour celui de droite, N =  1000
+ <p align = "center"> <img width="425" height="300" alt="Position 2D" src="https://github.com/user-attachments/assets/cdba7e67-868f-460d-a525-1bdef6567a38" />
+<img width="425" height="300" alt="Position 2D v2" src="https://github.com/user-attachments/assets/b31d0768-938b-4fe2-b2f9-0df1d9a1204d" /> </p> 
+Pour le graphe de gauche, N = 10000 pas et pour celui de droite, N =  1000 pas
 
 ## Remarque 
  Le mouvement brownien est un processus stochastique à trajectoires continues qui modélise des évolutions aléatoires. En physique, il peut notamment représenter le mouvement irrégulier d'une particule microscopique en suspension dans un fluide, soumis aux interactions avec les molécules environnantes.
