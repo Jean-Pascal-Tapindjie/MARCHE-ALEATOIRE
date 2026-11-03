@@ -3,7 +3,7 @@
  Le but de ce projet est de simuler des marches aléatoires en une et deux dimensions à l'aide de Python. En une dimension, la particule se déplace sur une droite ; en deux dimensions, elle se déplace dans un plan. Ce projet constitue une première approche des processus stochastiques et permet d'introduire le lien entre les marches aléatoires discrètes et le mouvement brownien.
 ## Langage de programmation
   Python 
-## Interface de programmation 
+## Environnement de développement
   Spyder 
 ## Bibliothèques utilisées 
   ### Matplotlib 
