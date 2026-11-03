@@ -1,4 +1,21 @@
 # Marche aléatoire 1D/2D
+## Table des matières
+
+1. [Objectif](#objectif)
+2. [Environnement et bibliothèques utilisées](#environnement-et-bibliothèques-utilisées)
+3. [Marche aléatoire en une dimension (1D)](#marche-aléatoire-1d)
+   - [Principe](#marche-aléatoire-1d)
+   - [Fonction Pile_ou_face()](#pile_ou_face)
+   - [Fonction Position(N)](#positionn)
+   - [Fonction Position_bornee()](#position_bornee)
+   - [Illustrations graphiques](#illustration-graphique-marche-aléatoire-bornée-et-non-bornée)
+4. [Marche aléatoire en deux dimensions (2D)](#marche-aléatoire-2d)
+   - [Fonction Boussole()](#boussole)
+   - [Fonction Position_2D(N)](#position_2dn)
+   - [Illustrations graphiques](#illustration-graphique-1)
+5. [Lien avec le mouvement brownien](#remarque)
+6. [Conclusion](#conclusion)
+   
 ## Objectif 
  Le but de ce projet est de simuler des marches aléatoires en une et deux dimensions à l'aide de Python. En une dimension, la particule se déplace sur une droite ; en deux dimensions, elle se déplace dans un plan. Ce projet constitue une première approche des processus stochastiques et permet d'introduire le lien entre les marches aléatoires discrètes et le mouvement brownien.
 ## Langage de programmation
