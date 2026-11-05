@@ -30,19 +30,19 @@
   ### NumPy 
   Utilisée pour générer les données numériques afin de tracer les droites représentant les bornes de la marche aléatoire en 1D.  
 # Marche aléatoire 1D
-  Ici, on suppose la particule dans un tube très fin et se déplace à chaque pas de temps aléatoirement vers la gauche ou la droite. Pour illustrer cela, j'ai utilisé dans mon code deux fonctions Pile_ou_face() et Position(N). J'ai également utilisé la fonction Position_bornee() pour stopper la simulation de la marche aléatoire de la particule si celle-ci atteint (-30) ou (30) ou si le programme atteint un nombre d'itérations maximum (10000). 
+  Ici, on suppose la particule dans un tube très fin et se déplace à chaque pas de temps aléatoirement vers la gauche ou la droite. Pour illustrer cela, j'ai utilisé dans mon code deux fonctions Pile_ou_face() et Position(N). J'ai également utilisé la fonction Position_bornee() pour stopper la simulation de la marche aléatoire de la particule si celle-ci atteint (-30) ou (30) ou si le programme atteint un nombre d'itérations maximum (10 000). 
   ### Pile_ou_face()
   Cette fonction utilise la fonction Random.uniform() du module Random pour retourner aléatoirement (-1) ou (1) avec P(-1)= P(1) = 1/2. Ici P(-1) (respectivement P(1)) représente la probabilité d'obtenir (-1) (resp. (1)).
   
   ### Position(N) 
-  Pour cette fonction, j'ai supposé que la particule se trouve a l'origine du repère (x = 0) à l'instant initial. Cette fonction prend donc en argument un entier N et renvoie une liste de positions de la particule à des instants successifs de t(0) à t(N). La formule générale utilisée est x(n+1) = x(n) + Pile_ou_face() avec n un instant quelconque et x(n) la position de la particule à cet instant. 
+  Pour cette fonction, j'ai supposé que la particule se trouve à l'origine du repère (x = 0) à l'instant initial. Cette fonction prend donc en argument un entier N et renvoie une liste de positions de la particule à des instants successifs de t(0) à t(N). La formule générale utilisée est x(n+1) = x(n) + Pile_ou_face() avec n un instant quelconque et x(n) la position de la particule à cet instant. 
    #### Illustration graphique
   <p align = "center"> <img width="377" height="268" alt="Position 1D" src="https://github.com/user-attachments/assets/264f977e-898b-4bca-922c-d0b2c7e7c942" />
 <img width="369" height="268" alt="Position 1D v2" src="https://github.com/user-attachments/assets/5168e1a2-8e05-467e-9f02-98d83782ffd8" />
  </p>
    
   ### Position_bornee() 
-   Cette fonction calcule  et renvoie une liste des positions successives de la particule. La simulation s'arrête lorsque la position atteint (-30) ou (30) ou lorsque le nombre maximal d'itérations est atteint (10000). Les bornes constituent ici des seuils d'arrêt de la simulation.
+   Cette fonction calcule  et renvoie une liste des positions successives de la particule. La simulation s'arrête lorsque la position atteint (-30) ou (30) ou lorsque le nombre maximal d'itérations est atteint (1 0000). Les bornes constituent ici des seuils d'arrêt de la simulation.
    #### Illustration graphique 
    <p align = "center"> <img width="387" height="268" alt="Position Bornee" src="https://github.com/user-attachments/assets/8181fe59-cbaa-4d9a-9864-7e32937836f8" />
 <img width="387" height="268" alt="Position Bornee v2" src="https://github.com/user-attachments/assets/5ae5aaf0-35a3-4a47-b470-412c0a43b605" /> </p> 
@@ -54,7 +54,7 @@
 # Marche aléatoire 2D 
  Ici, la particule est sortie du tube très fin et peut maintenant se déplacer dans quatre directions : la gauche, la droite, en haut et en bas. Pour illustrer cela, j'ai utilisé dans mon code deux fonctions Boussole() et Position_2D(N). 
  ### Boussole() 
- Cette fonction utilise la fonction Random.uniform() pour retourner aléatoirement un couple de valeur parmi les couples (0,1); (0,-1); (1,0); (-1,0) avec pour chaque couple une probabilité de 1/4. Ces couples représentent les quatre directions que peut prendre la particule.
+ Cette fonction utilise la fonction Random.uniform() pour retourner aléatoirement un couple de valeurs parmi les couples (0,1); (0,-1); (1,0); (-1,0) avec pour chaque couple une probabilité de 1/4. Ces couples représentent les quatre directions que peut prendre la particule.
  ### Position_2D(N) 
  On suppose que la particule se trouve à l'origine du repère, de coordonnées (0,0), à l'instant initial. Cette fonction prend en argument un entier N et retourne deux listes X pour les abscisses et Y pour les ordonnées. Ces deux listes représentent les positions (coordonnées) de la particule (X(i); Y(i)) à l'instant t(i) avec i compris entre 0 et N. 
  ### Illustration graphique 
